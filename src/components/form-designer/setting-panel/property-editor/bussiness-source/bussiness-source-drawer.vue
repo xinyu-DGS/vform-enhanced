@@ -104,7 +104,8 @@ import {assembleBussinessParams, unFlatten} from "@/utils/data-adapter.js";
 import ContextMenu from "@/components/context-menu/index.vue"
 import {isTable} from "@/utils/util.js";
 import {LoadBussinessRes, ScriptParam, ScriptTreeRes} from "@/api/types";
-import {TableColumnCtx} from "element-plus/lib/components/table/src/table-column/defaults";
+// import {TableColumnCtx} from "element-plus/lib/components/table/src/table-column/defaults";
+import { TableColumnCtx } from "element-plus/es/components/table/src/table-column/defaults"
 import LinkWidget from "@/components/link-widget/index.vue"
 
 
